@@ -1,0 +1,225 @@
+{
+  "currency": "₪",
+  "questionnaire": {
+    "progress": {
+      "basic": "פרטים בסיסיים",
+      "personal": "שאלון",
+      "questionnaire": "הצעות",
+      "results": "הלוואה"
+    },
+    "titles": {
+      "loan_purpose": "מצא את ההלוואה שלך מתוך אלפי אפשרויות",
+      "income": "מהי ההלוואה שמתאימה לי?",
+      "loan_period": "מה ההחזר החודשי שמתאים לי?",
+      "offers_panel": "תוצאות - תצוגה מקדימה",
+      "questions": "מצאנו הלוואות מתאימות עבורך!",
+      "lead1": "מצאנו",
+      "lead2": "הלוואות בדיוק בשבילך",
+      "results": "*מפת האפשרויות שלך",
+      "last_verification": "אימות",
+      "summary": "בקשתך הושלמה"
+    },
+    "descriptions": {
+      "income": {
+        "line1": "המצב הכלכלי שלך משפיע על תנאי ההלוואה",
+        "line2": "ניתן להתחיל לקבל הצעות ללא הזדהות"
+      },
+      "questions": "ענה על השאלות הבאות וקבל הצעות יותר טובות ורלוונטיות עבורך",
+      "lead": "אנא השלם כמה פרטים מזהים לצורך השלמת הבקשה",
+      "results": "למי לפנות עבורך?"
+    },
+    "stepActions": {
+      "next": "המשך"
+    },
+    "fields": {
+      "loan_purpose": {
+        "label": "מהי מטרת ההלוואה?",
+        "options": {
+          "credit_cycling": "מחזור אשראי",
+          "overdraft": "סגירת מינוס",
+          "housing": "שיפוץ הבית",
+          "health": "טיפול רפואי",
+          "student": "לימודים",
+          "car": "רכב",
+          "vacation": "חופשה",
+          "family_event": "אירוע משפחתי",
+          "other": "אחר"
+        },
+        "selectButton": "בחר"
+      },
+      "loan_principal": {
+        "label": "סכום ההלוואה שאני צריך"
+      },
+      "income": {
+        "label": "הכנסה חודשית של משק הבית"
+      },
+      "installments": {
+        "label": "החזר הלוואות חודשי (כולל משכנתא)"
+      },
+      "loan_period": {
+        "calculate_loader": "מחשב תקופה מומלצת...",
+        "savings": "חיסכון:",
+        "no_savings": "אין",
+        "recommendedTitle": "תקופה מומלצת",
+        "standardTitle": "תקופה סטנדרטית",
+        "loan_for": "משך ההלוואה: ",
+        "estimation": "החזר חודשי מוערך: ",
+        "total": "סה\"כ אני משלם: ",
+        "standard_period_in_words": "7 שנים",
+        "continue": "המשך"
+      },
+      "employment_status": {
+        "label": "מצב תעסוקתי",
+        "options": {
+          "fulltime": "משרה מלאה",
+          "parttime": "חצי משרה",
+          "freelancer": "עצמאי/ת",
+          "pensioner": "גמלאי/ת",
+          "unemployed": "אינני עובד/ת",
+          "student": "סטודנט/ית"
+        }
+      },
+      "work_place": {
+        "label": "מקום עבודה"
+      },
+      "job_seniority": {
+        "label": "וותק (בשנים("
+      },
+      "consumer_clubs": {
+        "label": "סמן את המועדונים אליהם אתה שייך"
+      },
+      "banks": {
+        "label": "באילו בנקים אתה חברה?"
+      },
+      "pensions": {
+        "label": "האם יש לך קרנות השתלמות, פנסיה, גמל או ביטוח מנהלים?",
+        "check_button": "בדקו עבורי",
+        "options_box_title": "סמן את סוגי הקרנות שברשותך",
+        "pension": "פנסיה",
+        "education_fund": "קרן השתלמות",
+        "provident_fund": "קופת גמל",
+        "managers_security": "ביטוח מנהלים"
+      },
+      "life_status": {
+        "label": "מצב משפחתי",
+        "options": {
+          "married": "נשוי/ה",
+          "single": "רווק/ה",
+          "divorced": "גרוש/ה",
+          "publicFigure": "ידוע/ה בציבור",
+          "widower": "אלמן/ה",
+          "singleParent": "חד-הורי/ת"
+        }
+      },
+      "children": {
+        "label": "מספר ילדים"
+      },
+      "education": {
+        "label": "השכלה",
+        "options": {
+          "basic": "יסודית",
+          "highschool": "תיכונית",
+          "tertiary": "על-תיכונית",
+          "bachelor": "תואר ראשון",
+          "master": "תואר שני",
+          "doctor": "דוקטורט"
+        }
+      },
+      "age": {
+        "label": "גיל"
+      },
+      "gender": {
+        "label": "מין"
+      },
+      "residence_type": {
+        "label": "סוג מגורים",
+        "options": {
+          "owner": "דירה בבעלותי",
+          "rent": "בשכירות",
+          "parents": "אצל ההורים",
+          "other": "אחר"
+        }
+      },
+      "residence_location": {
+        "label": "מקום מגורים"
+      },
+      "first_name": {
+        "label": "שם פרטי"
+      },
+      "last_name": {
+        "label": "שם משפחה"
+      },
+      "email": {
+        "label": "כתובת מייל"
+      },
+      "phone_number": {
+        "label": "מספר טלפון"
+      }
+    },
+    "quote_stage": {
+      "congrats": "ברכות, ",
+      "sub_title": "ניתן לך אישור עקרוני להלוואה",
+      "disclaimer": "*אישור זה אינו סופי ומותנה בהמצאת המסמכים והאישורים שתתבקש להמציא, בנכונותם ובהתאמת האמור בהם להצהרותיך ובתנאי שלא תהיה מניעה על פי דין.",
+      "supplier": "ספק",
+      "loan_principal": "סכום ההלוואה",
+      "period": "תקופה",
+      "monthly_return": "החזר חודשי",
+      "offer_id": "מזהה בקשה"
+    },
+    "last_verification_stage": {
+      "personal_details": "פרטים אישיים",
+      "documents": "מסמכים מזהים",
+      "bank": "פרטי בנק",
+      "credit": "פרטי אשראי",
+      "image_id": "צילום תעודת זהות",
+      "image_paycheck": "צילום תלוש משכורת",
+      "bank_account": "מספר חשבון בנק",
+      "bank_number": "מספר בנק",
+      "bank_branch": "מספר סניף",
+      "credit_card": "כרטיס אשראי",
+      "validity": "תוקף",
+      "select_file": "בחר קובץ"
+    },
+    "summary_stage": {
+      "s1": "במידה וכל המידע ששלחת נכון, ",
+      "s2": "יעבירו את הכסף לחשבונך תוך ",
+      "s3": "שעות",
+      "update_id": "ניתן להתעדכן בסטטוס הבקשה באמצעות המזהה:",
+      "s4": "עד אז, נשמח לעמוד לשירותך בכל עת"
+    },
+    "loan_details": {
+      "advantages": "יתרונות",
+      "disadvantages": "חסרונות",
+      "more_details": "פרטים נוספים"
+    },
+    "offers_table_headers": {
+      "loan_name": "שם ההלוואה",
+      "interest_rate": "ריבית",
+      "monthly_payment": "החזר חודשי",
+      "total_payments": "סה\"כ תשלומים"
+    },
+    "custom": {
+      "lead_terms1": "אני מסכימ/ה לשימוש בפרטי כפי שמפורט להלן ולקבל דוא\"ל והודעות לצורך הטיפול בבקשתי.",
+      "lead_terms2": "וכן, אני מצהיר/ה כי אינני פושט/ת רגל בעל/ת חובות בעיתיים.",
+      "pension_check_agreement": "אני מסכימ/ה לשימוש בפרטי לבירור מסלולי פנסיה משתלמים עבורי.",
+      "lead_loader": "מתאים הצעות בשבילך...",
+      "results_disclaimer": "* המידע מבוסס על מאגר פרטי של מיילו",
+      "loans_table": {
+        "supplier": "ספק",
+        "loan_name": "שם הלוואה",
+        "monthly_payment": "החזר חודשי",
+        "interest_rate": "ריבית",
+        "total_payments": "סה\"כ תשלומים",
+        "button_digital": "סגור בדיגיטל",
+        "button_contact": "דבר איתנו!",
+        "button_suppliers": "פנה לכל הספקים"
+      },
+      "contact_text": "איך אפשר לעזור?",
+      "contact_button": "שלח"
+    },
+    "fields_info": {
+      "recommended_loan_period": "באמצעות בחירה בהחזר החודשי הגבוה ביותר שאפשר להרשות, ניתן לחסוך סכומים גדולים מאד. אנו מחשבים עבורך את ההחזר החודשי החסכוני ביותר, מבלי שההתחייבויות שלך (כולל ההלוואה החדשה), יעלו על 30% מההכנסה של משק הבית שלך.",
+      "standard_loan_period": "זוהי ההלוואה הממוצעת בשוק היום. הלקוח הרגיל חושב שעושים לו טובה כשמציעים לו תקופה ארוכה, כשבפועל מוסתרת ממנו העובדה שזה עולה לו הרבה יותר."
+    }
+  }
+}

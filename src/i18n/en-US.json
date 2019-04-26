@@ -1,0 +1,326 @@
+{
+  "currency": "$",
+  "questionnaire": {
+    "progress": {
+      "basic": "Basic Info",
+      "personal": "Questions",
+      "questionnaire": "Offers",
+      "results": "Loan"
+    },
+    "titles": {
+      "loan_purpose": "Find your loan",
+      "income": "Which loan is the best for me?",
+      "loan_period": "Which monthly return is recommended for me?",
+      "offers_panel": "Results - Preview",
+      "questions": "We found suitable loans for you!",
+      "lead1": "We found",
+      "lead2": "offers just for you",
+      "results": "Your options map*",
+      "last_verification": "Validation",
+      "summary": "Your application has been approved"
+    },
+    "descriptions": {
+      "income": {
+        "line1": "Your financial position affects your loan's terms.",
+        "line2": "You can receieve offers without identifying"
+      },
+      "questions": "Answer the following questions and get better and more relevant offers for you.",
+      "lead": "In order to complete the request, please fill the form below.",
+      "results": "Who should we connect you with?"
+    },
+    "stepActions": {
+      "next": "Next"
+    },
+    "fields": {
+      "loan_purpose": {
+        "label": "What is your loan purpose?",
+        "options": {
+          "credit_cycling": "Credit Cycling",
+          "overdraft": "Overdraft",
+          "housing": "Housing",
+          "health": "Health",
+          "student": "Student",
+          "car": "Car",
+          "vacation": "Vacation",
+          "family_event": "Family Event",
+          "other": "Other"
+        },
+        "selectButton": "Select"
+      },
+      "loan_principal": {
+        "label": "How much do you need?"
+      },
+      "income": {
+        "label": "Household monthly income"
+      },
+      "installments": {
+        "label": "Monthly installments (including mortgage)"
+      },
+      "loan_period": {
+        "calculate_loader": "Calculating recommended period...",
+        "savings": "Savings:",
+        "no_savings": "None",
+        "recommendedTitle": "Recommended",
+        "standardTitle": "Standard",
+        "loan_for": "Duration:",
+        "estimation": "Estimated monthly return:",
+        "total": "Total payment:",
+        "standard_period_in_words": "7 Years",
+        "continue": "Continue"
+      },
+      "employment_status": {
+        "label": "Employment status",
+        "options": {
+          "fulltime": "Full time",
+          "parttime": "Part time",
+          "freelancer": "Freelancer",
+          "pensioner": "Pensioner",
+          "unemployed": "Unemployed",
+          "student": "Student"
+        }
+      },
+      "work_place": {
+        "label": "Work place",
+        "options": {
+          "other": "אחר",
+          "the israel electric corporation": "חברת החשמל",
+          "intel": "אינטל",
+          "teva": "טבע",
+          "bank leumi": "לאומי",
+          "hp": "HP",
+          "elbit systems": "אלביט",
+          "bank hapoalim": "בנק הפועלים",
+          "israel aerospace industries": "תעשייה אווירית",
+          "strauss": "שטראוס",
+          "amdocs": "אמדוקס",
+          "bank leumi": "בנק לאומי",
+          "discount bank": "בנק דיסקונט",
+          "microsoft": "מיקרוסופט",
+          "direct insurance": "ביטוח ישיר",
+          "facebook": "פייסבוק",
+          "government ministries": "משרדי ממשלה",
+          "bezeq": "בזק",
+          "mekorot": "מקורות",
+          "ibm": "IBM",
+          "sap": "SAP",
+          "osem": "אסם",
+          "isracard": "ישראכארט",
+          "super-pharm": "סופר-פארם",
+          "leumi card": "לאומי קארד",
+          "apple": "אפל",
+          "icc": "ICC",
+          "check point": "צ'קפוינט",
+          "adama": "אדמה",
+          "partner": "פרטנר",
+          "applied materials": "אפלייד מטריאלס",
+          "ebay": "איביי",
+          "ashdod port": "נמל אשדוד",
+          "nice": "נייס",
+          "the dead sea": "מפעלי ים המלח",
+          "the phoenix": "הפניקס",
+          "the israel defense forces": "צה\"ל",
+          "el-zahal": "אל-זחל",
+          "verizon": "ורייזון",
+          "cellcom": "סלקום",
+          "the central investment company": "החברה המרכזית להשקעות",
+          "shikun & binui": "שיכון בינוי",
+          "harel": "הראל",
+          "hogla": "חוגלה",
+          "migdal": "מגדל",
+          "philips": "פיליפס",
+          "matrix": "מטריקס",
+          "marvell": "מארוול",
+          "bank yahav": "בנק יהב",
+          "bank otsar hahayal": "בנק אוצר החייל",
+          "icl / bromine compounds": "כיל \\ תרכובות ברום",
+          "wix": "וויקס",
+          "cisco": "סיסקו",
+          "electra": "אלקטרה",
+          "yes": "יס",
+          "psagot": "פסגות",
+          "clal": "כלל",
+          "mizrahi bank": "בנק מזרחחי",
+          "perrigo": "פריגו",
+          "mellanox": "מלנוקס",
+          "iscar": "ישקר",
+          "estee lauder-alkalil": "אסתי לאודר-אלקליל",
+          "haifa port": "נמל חיפה",
+          "airports authority": "רשות שדות התעופה",
+          "ness technologies": "נס",
+          "union motors": "יוניון מוטורס",
+          "oracle": "אוראקל",
+          "clalit health services": "כללית",
+          "leumit health services": "לאומית",
+          "the israeli police": "משטרה",
+          "novo nordisk": "נובו נורדיסק",
+          "israel railways": "רכבת ישראל",
+          "maccabi healthcare services": "מכבי",
+          "aig": "AIG",
+          "orbotech": "אורבוטק",
+          "iron source": "איירון סורס",
+          "sanofi": "סאנופי",
+          "qualcomm": "קואלקום",
+          "kamag": "קמג",
+          "novartis": "נובארטיס",
+          "msd": "MSD",
+          "nespresso": "נספרסו",
+          "eli lilly": "אלי לילי",
+          "menorah": "מנורה",
+          "vmware": "VMWare",
+          "redhat": "רדהט",
+          "malam team": "קבוצת מלם",
+          "sqlink": "SQLink",
+          "conduit": "קונדואיט",
+          "888": "888",
+          "stratisis": "סטראטיסיס",
+          "outbrain": "אאוטבריין",
+          "rephael": "רפאל",
+          "emc": "EMC",
+          "fibi": "הבנק הבינלאומי",
+          "tnuva": "תנובה",
+          "sandisk": "סנדיסק",
+          "unilever": "יונילוור",
+          "elal": "אלעל"
+        }
+      },
+      "job_seniority": {
+        "label": "Job seniority (in years)"
+      },
+      "consumer_clubs": {
+        "label": "Select the clubs you are a member of"
+      },
+      "banks": {
+        "label": "In which of the following banks do you have an account?"
+      },
+      "pensions": {
+        "label": "Do you have an education fund, pension or any managers security?",
+        "check_button": "Check for me",
+        "options_box_title": "Select the types of funds you own",
+        "pension": "Pension",
+        "education_fund": "Education fund",
+        "provident_fund": "Provident fund",
+        "managers_security": "Managers security"
+      },
+      "life_status": {
+        "label": "Life status",
+        "options": {
+          "married": "Married",
+          "single": "Single",
+          "divorced": "Divorced",
+          "publicFigure": "Public figure",
+          "widower": "Widower",
+          "singleParent": "Single parent"
+        }
+      },
+      "children": {
+        "label": "Children number"
+      },
+      "education": {
+        "label": "Education",
+        "options": {
+          "basic": "Basic",
+          "highschool": "Highschool",
+          "tertiary": "Tertiary",
+          "bachelor": "Bachelor",
+          "master": "Master",
+          "doctor": "Doctor"
+        }
+      },
+      "age": {
+        "label": "Age"
+      },
+      "gender": {
+        "label": "Gender"
+      },
+      "residence_type": {
+        "label": "Residence type",
+        "options": {
+          "owner": "Owner",
+          "rent": "Rent",
+          "parents": "Parents",
+          "other": "Other"
+        }
+      },
+      "residence_location": {
+        "label": "Residence location"
+      },
+      "first_name": {
+        "label": "First name"
+      },
+      "last_name": {
+        "label": "Last name"
+      },
+      "email": {
+        "label": "Email address"
+      },
+      "phone_number": {
+        "label": "Phone number"
+      }
+    },
+    "quote_stage": {
+      "congrats": "Congrats, ",
+      "sub_title": "You were given a fundamental approval for receiving the loan",
+      "supplier": "Supplier",
+      "loan_principal": "Principal",
+      "period": "Period",
+      "monthly_return": "Monthly return",
+      "offer_id": "Offer ID",
+      "disclaimer": "*This approval is not final and is subject to the documents you will be asked to provide, their correctness and provided there is no impediment by law."
+    },
+    "last_verification_stage": {
+      "personal_details": "Personal info",
+      "documents": "Identifying documents",
+      "bank": "Bank",
+      "credit": "Credit card",
+      "image_id": "Front ID card photo",
+      "image_paycheck": "Paycheck photo",
+      "bank_account": "Bank account number",
+      "bank_number": "Bank number",
+      "bank_branch": "Bank branch",
+      "credit_card": "Credit card",
+      "validity": "Validity",
+      "select_file": "Select file"
+    },
+    "summary_stage": {
+      "s1": "Assuming the data you've provided is correct, ",
+      "s2": "will transfer the money into your bank account in",
+      "s3": "hours",
+      "update_id": "You can follow the loan's status with the ID: ",
+      "s4": "Till then, we are here for anything you need"
+    },
+    "loan_details": {
+      "advantages": "Advantages",
+      "disadvantages": "Disadvantages",
+      "more_details": "More details"
+    },
+    "offers_table_headers": {
+      "loan_name": "Loan name",
+      "interest_rate": "Interest",
+      "monthly_payment": "Monthly payment",
+      "total_payments": "Total payments"
+    },
+    "custom": {
+      "lead_terms1": " I agree that the details I gave will be used as written below and to be notified via email about my application.",
+      "lead_terms2": " Also, I declare that I'm not a bankrupt with problematic debts.",
+      "pension_check_agreement": " I agree that mylo will use my details for finding suitable pension deals for me.",
+      "lead_loader": "Collecting the right offers for you...",
+      "results_disclaimer": "* The information below is based on mylo's private database",
+      "loans_table": {
+        "supplier": "Supplier",
+        "loan_name": "name",
+        "monthly_payment": "Monthly return",
+        "interest_rate": "Interest",
+        "total_payments": "Total payments",
+        "button_digital": "Get offer!",
+        "button_contact": "Call us!",
+        "button_suppliers": "Reach all suppliers"
+      },
+      "contact_text": "How can we help?",
+      "contact_button": "Send"
+    },
+    "fields_info": {
+      "recommended_loan_period": "By choosing the heighest affordable monthly return, you can save very high amounts. We calculate  the most economical return for you, so that your previously mentioned installments (including the new loan) will not bypass 30% of your household's income.",
+      "standard_loan_period": "This is the standard loan in the market today. The average customer thinks that a long return period is better while it actually costs him much more in total."
+    }
+  }
+}

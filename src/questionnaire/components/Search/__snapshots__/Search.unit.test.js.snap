@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should render 1`] = `
+<div>
+  <ul
+    class="RadioField__StyledRadioField-dbgo0q-0 GXYln"
+  >
+    <li
+      class="RadioItem__StyledRadioItem-sc-1e6z0nt-0 kGzXTL"
+    >
+      <input
+        checked=""
+        name="name"
+        type="radio"
+        value="value"
+      />
+      <label>
+        label
+      </label>
+    </li>
+  </ul>
+  <div
+    class="SingleInput__StyledSingleInput-sc-1titmac-0 lmDrXh"
+  >
+    <div
+      class="NextButton__StyledButtonBox-ar7dhl-0 SearchButtonBox__StyledSingleInput-sc-1k3go0o-0 ctzWkS SingleInput__StyledInputBox-sc-1titmac-1 gtspmL"
+    >
+      <input
+        class="SingleInput__StyledInput-sc-1titmac-2 byFhVL"
+        placeholder="Start typing company name"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;
